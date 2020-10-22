@@ -16,7 +16,8 @@ default: &default
   username: kitaguchi
   password: nanashi
   host: localhost
-  socket: /var/lib/mysql/mysql.sock
+  socket: /tmp/mysql.sock
+  # socket: /var/lib/mysql/mysql.sock
 
 development:
   <<: *default
