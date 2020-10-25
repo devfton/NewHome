@@ -1,0 +1,1 @@
+# FIRE_BASE_TOKEN = "AIzaSyBeHJlwqfqyrnquc1ew__aeqQE38Gjp9M8"
