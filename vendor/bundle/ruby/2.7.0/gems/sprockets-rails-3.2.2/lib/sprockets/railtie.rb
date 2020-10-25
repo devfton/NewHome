@@ -123,7 +123,7 @@ module Sprockets
     config.assets.cache_limit = 50.megabytes
     config.assets.gzip        = true
     config.assets.check_precompiled_asset = true
-    config.assets.unknown_asset_fallback  = true
+    config.assets.unknown_asset_fallback  = false
 
     config.assets.configure do |env|
       config.assets.paths.each { |path| env.append_path(path) }
